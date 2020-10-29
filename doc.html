@@ -1,0 +1,76 @@
+<html>
+	<head>
+		<!--JazzBlocks required code-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<link rel="preload" href="https://jacobborgprogramming.github.io/JazzBlocksLibrary/libraries/JazzBlocks.css" as="style">
+<link rel="stylesheet" href="https://jacobborgprogramming.github.io/JazzBlocksLibrary/libraries/JazzBlocks.css">
+<link rel="preload" href="https://jacobborgprogramming.github.io/JazzBlocksLibrary/libraries/JazzBlocksFunctions.js" as="script">
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" as="style">
+<link href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" rel="stylesheet">
+<!--end-->
+	  <title>Stairway|DocEd</title>
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="preload" href="DocEd.css"/>
+	  <link rel="stylesheet" href="DocEd.css"/>
+	</head>
+
+	<body style="background-color: white; margin: 3mm;">
+		 <div class="ph_l" id="heading" contenteditable="true"></div>
+		 <div class="ph_m" id="body" contenteditable="true"></div>
+		 <div style="padding-top: 5mm;" class="ph_m" id="footer" contenteditable="true"></div>
+		 <center>
+		 <div id="controlBar2" style="bottom: 0mm; left: 0mm; right: 0mm; position: fixed; margin-top: 3mm; padding: 1mm; padding-top: 4mm; background-color: #1a1a1a; width: 100%; overflow-y: scroll; height: 40mm; border: solid; border-color: #cecece;">
+			 <div class="dropdown">
+			  <a href="#"><button class="btn btn-secondary">Header Controls</button></a>
+			  <div class="dropdown-content">
+			    <button style="margin-top:2mm;" onclick="Hpf();" class="btn btn-secondary">Header 1</button>
+			    <button style="margin-top:1mm;" onclick="Hpn();" class="btn btn-secondary">Header 2</button>
+			    <button style="margin-top:1mm;" onclick="Hpc();" class="btn btn-secondary">Header 3</button>
+					<button style="margin-top:1mm;" onclick="Hpo();" class="btn btn-secondary">Header 4</button>
+			    <button style="margin-top:1mm;" onclick="Hph();" class="btn btn-secondary">Header 5</button>
+					<button onclick="Hleft();" class="btn btn-secondary">Left</button>
+					<button onclick="Hcenter();" class="btn btn-secondary">Center</button>
+					<button onclick="Hright();" class="btn btn-secondary">Right</button>
+			  </div>
+			 </div>
+			 <div class="dropdown">
+			  <a href="#"><button class="btn btn-secondary">Body Controls</button></a>
+			  <div class="dropdown-content">
+			    <button style="margin-top:1mm;" onclick="Bpf();" class="btn btn-secondary">Body 1</button>
+					<button style="margin-top:1mm;" onclick="Bpn();" class="btn btn-secondary">Body 2</button>
+					<button style="margin-top:1mm;" onclick="Bpc();" class="btn btn-secondary">Body 3</button>
+					<button style="margin-top:1mm;" onclick="Bpo();" class="btn btn-secondary">Body 4</button>
+					<button style="margin-top:1mm;" onclick="Bph();" class="btn btn-secondary">Body 5</button>
+					<button style="margin-top:1mm;" onclick="Bleft();" class="btn btn-secondary">Left</button>
+					<button style="margin-top:1mm;" onclick="Bcenter();" class="btn btn-secondary">Center</button>
+					<button style="margin-top:1mm;" onclick="Bright();" class="btn btn-secondary">Right</button>
+
+			  </div>
+			 </div>
+			 <div class="dropdown">
+			  <a href="#"><button class="btn btn-secondary">Footer Controls</button></a>
+			  <div class="dropdown-content">
+	<button style="margin-top:1mm;" onclick="Fpf();" class="btn btn-secondary">Footer 1</button>
+	<button style="margin-top:1mm;" onclick="Fpn();" class="btn btn-secondary">Footer 2</button>
+	<button style="margin-top:1mm;" onclick="Fpc();" class="btn btn-secondary">Footer 3</button>
+	<button style="margin-top:1mm;" onclick="Fpo();" class="btn btn-secondary">Footer 4</button>
+	<button style="margin-top:1mm;" onclick="Fph();" class="btn btn-secondary">Footer 5</button>
+	<button style="margin-top:1mm;" onclick="Fleft();" class="btn btn-secondary">Left</button>
+	<button style="margin-top:1mm;" onclick="Fcenter();" class="btn btn-secondary">Center</button>
+	<button style="margin-top:1mm;" onclick="Fright();" class="btn btn-secondary">Right</button></p>
+
+			  </div>
+			 </div>
+<!---->
+			 <p style="padding: 5mm;"><button style="margin: 2mm;" onclick="black();" class="btn btn-secondary">Black</button><button style="margin: 2mm;" onclick="green();" class="btn btn-secondary">Green</button><button style="margin: 2mm;" onclick="red();" class="btn btn-secondary">Red</button><button style="margin: 2mm;" onclick="blue();" class="btn btn-secondary">Blue</button></p>
+			 <p><button class="btn btn-secondary" onclick="hide2();">Confirm Styles</button></p>
+			 <!--
+<a href="http://free-website-translation.com/" id="ftwtranslation_button" hreflang="en" title="" style="border:0;"><img src="http://free-website-translation.com/img/fwt_button_en.gif" id="ftwtranslation_image" alt="Free Website Translator" style="border:0;"/></a> <script type="text/javascript" src="http://free-website-translation.com/scripts/fwt.js" /></script>
+-->
+		 </div>
+
+
+	 </center>
+	<script id="script" src="app.js"></script>
+</body>
+  </html>
